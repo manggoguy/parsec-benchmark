@@ -7,7 +7,7 @@ LIBS:=$(LIBS) -lm
 
 ifdef version
   ifeq "$(version)" "pthreads"
-    CXXFLAGS+=-DENABLE_THREADS -pthread
+    CXXFLAGS+=-DENABLE_THREADS -pthread -std=c++14
   endif
 endif
 

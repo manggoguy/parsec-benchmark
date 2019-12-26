@@ -55,7 +55,7 @@ static const char *defaultBVHBuilder = "default";
 
 
 #define  NEEDS_PTHREAD_BARRIER_T_WRAPPER
-/* #undef  APPLE */
+/* #undef APPLE */
 #ifdef APPLE
 #  define THIS_IS_APPLE 
 // we originally named it like that, even though we should probably stay with "APPLE" only

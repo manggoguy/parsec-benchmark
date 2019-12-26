@@ -26,8 +26,8 @@ if [ -z "$TARGET_CROSS" ]; then
 fi
 
 # Compilers and preprocessors
-export CC="${TARGET_CROSS}gcc"
-export CXX="${TARGET_CROSS}g++"
+export CC="wllvm"
+export CXX="g++"
 export CPP="${TARGET_CROSS}cpp"
 export CXXCPP=""
 

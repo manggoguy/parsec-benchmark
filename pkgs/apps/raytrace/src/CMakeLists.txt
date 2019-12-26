@@ -52,11 +52,11 @@ IF (CYGWIN)
   ENDIF (BUILD_SHARED_LIBS)
 ENDIF (CYGWIN)
 
-INCLUDE (${CMAKE_ROOT}/Modules/FindX11.cmake)
-INCLUDE (${CMAKE_ROOT}/Modules/FindThreads.cmake)
-INCLUDE (${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
-INCLUDE (${CMAKE_ROOT}/Modules/FindGLU.cmake)
-INCLUDE (${CMAKE_ROOT}/Modules/FindGLUT.cmake)
+INCLUDE (/home/mok/parsec/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/share/cmake-2.6/Modules/FindX11.cmake)
+INCLUDE (/home/mok/parsec/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/share/cmake-2.6//Modules/FindThreads.cmake)
+INCLUDE (/home/mok/parsec/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/share/cmake-2.6/Modules/FindOpenGL.cmake)
+INCLUDE (/home/mok/parsec/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/share/cmake-2.6/Modules/FindGLU.cmake)
+INCLUDE (/home/mok/parsec/parsec-3.0/pkgs/tools/cmake/inst/amd64-linux.gcc/share/cmake-2.6/Modules/FindGLUT.cmake)
 
 IF (CYGWIN)
   # this is windows, have our own glut lib in this project...
